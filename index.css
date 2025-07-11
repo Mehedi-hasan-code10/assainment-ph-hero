@@ -172,13 +172,11 @@ nav {
     margin: 150px auto;
     border-radius: 15px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    /* border: 1px solid green; */
+    border: 1px solid #E5E7FF;
     background-color: #E5E7FF
     
 }
-.user-child-div{
-    /* margin-top: 50px; */
-}
+
 
 .user-first-child {
     width: 856px;
@@ -285,7 +283,7 @@ nav {
 .better {
     width: 1140px;
     height: 697px;
-    /* border: 1px solid red; */
+    border: 1px solid #ffffff;
     background-color: #ffffff;
     margin: 140px auto;
     text-align: center;
