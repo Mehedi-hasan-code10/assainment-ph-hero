@@ -231,3 +231,42 @@ nav {
 }
 
 /* loved section end */
+
+/* redy-to-batter start */
+
+.better {
+    width: 1140px;
+    height: 697px;
+    border: 1px solid red;
+    background-color: #ffffff;
+    margin: 140px auto;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+
+.better-img {
+    width: 840px;
+    height: 364px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.better-h1 {
+    margin-top: 50px;
+}
+
+.better-p,
+.better-btn {
+    margin-top: 20px;
+}
+
+.better-btn {
+    background-color: #4E47FF;
+    padding: 12px 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* redy-to-batter end */
