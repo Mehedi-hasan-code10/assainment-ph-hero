@@ -29,6 +29,13 @@ body {
     font-weight: 900;
     font-style: normal;
 }
+.medium{ 
+            font-family: "Inter", sans-serif;
+            font-optical-sizing: auto;
+            font-weight: medium;
+            font-style: normal;
+        }
+
 
 /* inter font end */
 
@@ -87,7 +94,7 @@ nav {
 /* templet start here */
 
 .templet {
-    
+
     width: 905px;
     height: 300px;
     margin: 160px auto;
@@ -385,7 +392,7 @@ label {
     display: block;
     margin-top: 15px;
     font-size: 18px;
-    font-weight: medium;
+    /* font-weight: medium; */
 
 }
 
