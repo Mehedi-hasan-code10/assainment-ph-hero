@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    
+
 }
 
 /* rail way font */
@@ -13,6 +13,7 @@
     font-variation-settings:
         "wdth" 100;
 }
+
 /* railway font end */
 
 /* inter font  */
@@ -27,7 +28,7 @@
 
 
 .header-section {
-    
+
     height: 698px;
     /* border: 1px solid red; */
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
@@ -46,12 +47,12 @@ nav {
     color: #4E47FF;
     margin-top: 45px;
     font-size: 34px;
-    
+
 }
 
 
 .nav-btn {
-    
+
     width: 132px;
     height: 48px;
     background-color: #4E47FF;
@@ -63,13 +64,13 @@ nav {
     border: none;
     cursor: pointer;
     transition: 0.5;
-   
+
 }
 
 .nav-btn:hover {
 
     background-color: #0d0d17;
-    
+
 
 }
 
@@ -108,7 +109,7 @@ nav {
 
 .tem-btn:hover {
     background-color: #0d0d17;
-    
+
 }
 
 .main-sec {
@@ -125,7 +126,7 @@ nav {
     height: 203px;
     /* border: 1px solid black; */
     margin: auto 0;
-   
+
 }
 
 .m-s-i {
@@ -134,9 +135,10 @@ nav {
     border-radius: 20px;
 }
 
-.main-sec-h1{
+.main-sec-h1 {
     font-size: 42px;
 }
+
 .main-sec-h1,
 .main-sec-p,
 .main-sec-btn {
@@ -189,7 +191,7 @@ nav {
 .user-h1 {
     text-align: center;
     font-size: 38px;
-    
+
 }
 
 .user-activity {
@@ -257,6 +259,7 @@ nav {
 
 .lbd-p {
     margin-top: 10px;
+
 }
 
 .review {
@@ -319,6 +322,11 @@ nav {
     cursor: pointer;
 }
 
+.better-p {
+    color: #757575;
+
+}
+
 .better-btn:hover {
     background-color: #0d0d17;
     transition: 0.5s;
@@ -372,16 +380,16 @@ input {
     border: 1px solid white;
     padding: 13px;
     font-size: 16px;
-    
+
 }
 
 
 textarea {
-   
+
     border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-        border: 1px solid white;
-    
+    border: 1px solid white;
+
 }
 
 .form-btn {
@@ -408,7 +416,7 @@ textarea {
 
 /* footer start */
 .footer-sec {
-   
+
     height: 428px;
     margin: 0 auto;
     display: flex;
@@ -426,7 +434,7 @@ textarea {
     height: 221px;
     /* border: 1px solid red; */
     background-color: #ffffff;
-   
+
 }
 
 .f-h1 {
@@ -463,9 +471,9 @@ ul {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    
+
 }
 
 body {
-    background-color:#f5f8ff;
+    background-color: #f5f8ff;
 }
