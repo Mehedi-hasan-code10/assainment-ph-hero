@@ -3,6 +3,12 @@
     padding: 0;
 
 }
+/* body start here */
+body {
+    background-color: #f5f8ff;
+}
+
+/* body end here */
 
 /* rail way font */
 .open-sans-railway {
@@ -26,12 +32,14 @@
 
 /* inter font end */
 
-
+/* header start here */
 .header-section {
 
     height: 698px;
     /* border: 1px solid red; */
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 nav {
@@ -70,9 +78,13 @@ nav {
 .nav-btn:hover {
 
     background-color: #0d0d17;
+    border: none;
 
 
 }
+/* header end here */
+
+/* templet start here */
 
 .templet {
     width: 905px;
@@ -111,6 +123,9 @@ nav {
     background-color: #0d0d17;
 
 }
+/* templet end here */
+
+/* main section start here */
 
 .main-sec {
     width: 1140px;
@@ -168,6 +183,10 @@ nav {
 
 }
 
+/* main section end here */
+
+/* user section start here */
+
 .user {
     width: 1140px;
     height: 306px;
@@ -214,6 +233,7 @@ nav {
     margin-left: 10px;
     font-size: 20px;
 }
+/* user section end here */
 
 /* loved section start */
 .loved-div {
@@ -332,9 +352,9 @@ nav {
     transition: 0.5s;
 }
 
-/* raedy-to-batter end */
+/* raedy-to-batter end here */
 
-/* form start  */
+/* form start here */
 .form-div {
     width: 1140px;
     height: 696px;
@@ -412,9 +432,9 @@ textarea {
 }
 
 
-/* form end */
+/* form end here*/
 
-/* footer start */
+/* footer start here*/
 .footer-sec {
 
     height: 428px;
@@ -473,7 +493,4 @@ ul {
     text-align: center;
 
 }
-
-body {
-    background-color: #f5f8ff;
-}
+/* footer end here */
