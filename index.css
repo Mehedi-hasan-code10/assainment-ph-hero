@@ -1,22 +1,35 @@
 * {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    
 }
 
-
-.inter-letter {
-    font-family: "Inter", sans-serif;
+/* rail way font */
+.open-sans-railway {
+    font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
     font-weight: normal;
     font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+/* railway font end */
+
+/* inter font  */
+.inter-letter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* inter font end */
 
 
 .header-section {
-    /* width: 1440px; */
+    
     height: 698px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
 }
 
@@ -26,18 +39,19 @@ nav {
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
 }
 
 .nav-h1 {
     color: #4E47FF;
-    margin-top: 50px;
+    margin-top: 45px;
     font-size: 34px;
-    /* font-weight: bold; */
+    
 }
 
+
 .nav-btn {
-    /* padding: 12px 25px; */
+    
     width: 132px;
     height: 48px;
     background-color: #4E47FF;
@@ -47,21 +61,23 @@ nav {
     font-size: 16px;
     color: white;
     border: none;
-    /* font-family:; */
-}
-
-.nav-btn:hover{
-   
-    background-color: #0d0d17;
+    cursor: pointer;
     transition: 0.5;
    
 }
 
+.nav-btn:hover {
+
+    background-color: #0d0d17;
+    
+
+}
+
 .templet {
     width: 905px;
-    height: 237px;
+    height: 300px;
     margin: 160px auto;
-    border: 1px solid yellow;
+    /* border: 1px solid yellow; */
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -83,16 +99,23 @@ nav {
     background-color: #4E47FF;
     border: none;
     border-radius: 10px;
-    /* margin-top: 50px; */
+    cursor: pointer;
+    transition: 0.5;
+    margin-top: 50px;
 
 
+}
+
+.tem-btn:hover {
+    background-color: #0d0d17;
+    
 }
 
 .main-sec {
     width: 1140px;
     height: 328px;
-    border: 1px solid black;
-    margin: 0 auto;
+    /* border: 1px solid black; */
+    margin: 100px auto;
     display: flex;
     justify-content: space-between;
 }
@@ -100,9 +123,9 @@ nav {
 .main-sec-div {
     width: 517px;
     height: 203px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: auto 0;
-    /* margin-bottom: 10px; */
+   
 }
 
 .m-s-i {
@@ -111,6 +134,9 @@ nav {
     border-radius: 20px;
 }
 
+.main-sec-h1{
+    font-size: 42px;
+}
 .main-sec-h1,
 .main-sec-p,
 .main-sec-btn {
@@ -119,10 +145,17 @@ nav {
 
 .main-sec-btn {
     background-color: #4E47FF;
-    padding: 12px 25px;
+    padding: 15px 30px;
     border: none;
     border-radius: 10px;
     color: white;
+    cursor: pointer;
+}
+
+.main-sec-btn:hover {
+
+    background-color: #0d0d17;
+    transition: 0.5s;
 }
 
 .main-sec-p {
@@ -138,21 +171,27 @@ nav {
     height: 306px;
     margin: 150px auto;
     border-radius: 15px;
-    border: 1px solid green;
-    background-color: rgba(253, 187, 196, 0.102);
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    /* border: 1px solid green; */
+    background-color: #E5E7FF
+    
+}
+.user-child-div{
+    /* margin-top: 50px; */
 }
 
 .user-first-child {
     width: 856px;
-    height: 206px;
+    height: 216px;
     margin: 50px auto;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
 
 }
 
 .user-h1 {
     text-align: center;
     font-size: 38px;
+    
 }
 
 .user-activity {
@@ -181,18 +220,20 @@ nav {
     width: 1140px;
     height: 342px;
     margin: 140px auto;
-    border: 1px solid goldenrod;
+    /* border: 1px solid goldenrod; */
 }
 
 .loved-h1 {
     text-align: center;
+    font-weight: bold;
+    font-size: 42px;
 }
 
 /* loved card cointainer start */
 .cart-cointainer {
     height: 243px;
     width: 1140px;
-    border: 1px solid rgb(33, 33, 3);
+    /* border: 1px solid rgb(33, 33, 3); */
     margin-top: 70px;
     display: flex;
     justify-content: space-between;
@@ -206,7 +247,7 @@ nav {
     border-radius: 10px;
     background-color: #ffffff;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .star-div,
@@ -239,16 +280,16 @@ nav {
 
 /* loved section end */
 
-/* redy-to-batter start */
+/* ready-to-batter start */
 
 .better {
     width: 1140px;
     height: 697px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: #ffffff;
     margin: 140px auto;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 10px;
     box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -256,12 +297,14 @@ nav {
 .better-img {
     width: 840px;
     height: 364px;
-    border-radius: 30px;
+    border-radius: 48px;
     margin-top: 30px;
 }
 
 .better-h1 {
-    margin-top: 50px;
+    margin-top: 60px;
+    font-size: 50px;
+    font-weight: bold;
 }
 
 .better-p,
@@ -274,15 +317,22 @@ nav {
     padding: 12px 25px;
     border-radius: 5px;
     border: none;
+    color: white;
+    cursor: pointer;
 }
 
-/* redy-to-batter end */
+.better-btn:hover {
+    background-color: #0d0d17;
+    transition: 0.5s;
+}
+
+/* raedy-to-batter end */
 
 /* form start  */
 .form-div {
     width: 1140px;
     height: 696px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
@@ -301,39 +351,58 @@ nav {
 
 form {
     width: 497px;
-    height: 490px;
+    height: 530px;
     margin-top: auto;
     margin-bottom: auto;
-    border: 1px solid blueviolet;
+    /* border: 1px solid blueviolet; */
 }
 
 label {
     display: block;
     margin-top: 15px;
+    font-size: 18px;
+    font-weight: medium;
+
 }
 
 input {
-    width: 495px;
-    height: 70px;
+    width: 470px;
+    height: 55px;
     margin-top: 10px;
     border-radius: 10px;
-    /* border: none; */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid white;
+    padding: 13px;
+    font-size: 16px;
+    
 }
 
-.textarea {
-    width: 495px;
-    padding: 32px;
+
+textarea {
+   
     border-radius: 10px;
-    /* height: 135px; */
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+        border: 1px solid white;
+    
 }
 
 .form-btn {
     padding: 12px 25px;
+    height: 60px;
     background-color: #4E47FF;
     margin-top: 15px;
     width: 497px;
     border-radius: 10px;
     border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-btn:hover {
+    background-color: #0d0d17;
+    transition: 0.5s;
 }
 
 
@@ -341,26 +410,30 @@ input {
 
 /* footer start */
 .footer-sec {
-    /* width: 1440px; */
+   
     height: 428px;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
     background-color: #ffffff;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
+
 
 .footer-child {
     width: 531px;
     height: 221px;
-    border: 1px solid red;
-    margin: 0 auto;
-    margin-top: auto;
-    margin-bottom: auto;
+    /* border: 1px solid red; */
+    background-color: #ffffff;
+   
 }
 
 .f-h1 {
     color: #4E47FF;
-    font-weight: bold;
+    font-weight: 900;
     font-size: 100px;
     text-align: center;
 }
@@ -385,16 +458,16 @@ a {
 .list {
     margin: 10px auto;
     width: 500px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 ul {
     display: flex;
     justify-content: space-between;
     text-align: center;
-    /* align-items: center; */
+    
 }
 
-body{
-    background-color: #f3f5f8;
+body {
+    background-color:#f5f8ff;
 }
