@@ -168,3 +168,66 @@ nav {
     margin-left: 10px;
     font-size: 20px;
 }
+
+/* loved section start */
+.loved-div {
+    width: 1140px;
+    height: 342px;
+    margin: 140px auto;
+    border: 1px solid goldenrod;
+}
+
+.loved-h1 {
+    text-align: center;
+}
+
+/* loved card cointainer start */
+.cart-cointainer {
+    height: 243px;
+    width: 1140px;
+    border: 1px solid rgb(33, 33, 3);
+    margin-top: 70px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* cart start */
+.cart {
+    width: 366px;
+    height: 242px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
+    border: 1px solid red;
+}
+
+.star-div,
+.loved-by-desiner,
+.review {
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.lbd-p {
+    margin-top: 10px;
+}
+
+.review {
+    display: flex;
+}
+
+.date-h5,
+.date-p {
+    margin-left: 10px;
+}
+
+.date-p {
+    color: #B3B3B3;
+}
+
+.date-h5 {
+    color: #757575;
+}
+
+/* loved section end */
