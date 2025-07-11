@@ -37,7 +37,7 @@ nav {
 }
 
 .nav-btn {
-    /* padding: 12px; */
+    /* padding: 12px 25px; */
     width: 132px;
     height: 48px;
     background-color: #4E47FF;
@@ -48,6 +48,13 @@ nav {
     color: white;
     border: none;
     /* font-family:; */
+}
+
+.nav-btn:hover{
+   
+    background-color: #0d0d17;
+    transition: 0.5;
+   
 }
 
 .templet {
@@ -353,6 +360,7 @@ input {
 
 .f-h1 {
     color: #4E47FF;
+    font-weight: bold;
     font-size: 100px;
     text-align: center;
 }
@@ -385,4 +393,8 @@ ul {
     justify-content: space-between;
     text-align: center;
     /* align-items: center; */
+}
+
+body{
+    background-color: #f3f5f8;
 }
