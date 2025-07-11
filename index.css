@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+
+.inter-letter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+.header-section {
+    /* width: 1440px; */
+    height: 698px;
+    border: 1px solid red;
+    background-image: url(B12A01-landing-launchpad/Assets/Hero-bg.png);
+}
+
+nav {
+    width: 1140px;
+    height: 151px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid blue;
+}
+
+.nav-h1 {
+    color: #4E47FF;
+    margin-top: 50px;
+    font-size: 34px;
+    /* font-weight: bold; */
+}
+
+.nav-btn {
+    /* padding: 12px; */
+    width: 132px;
+    height: 48px;
+    background-color: #4E47FF;
+    margin-top: 45px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 16px;
+    color: white;
+    border: none;
+    /* font-family:; */
+}
+
+.templet {
+    width: 905px;
+    height: 237px;
+    margin: 160px auto;
+    border: 1px solid yellow;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+
+
+
+}
+
+.templet-h1 {
+    font-size: 65px;
+}
+
+.tem-btn {
+    width: 174px;
+    height: 48px;
+    color: white;
+    background-color: #4E47FF;
+    border: none;
+    border-radius: 10px;
+    /* margin-top: 50px; */
+
+
+}
+
+.main-sec {
+    width: 1140px;
+    height: 328px;
+    border: 1px solid black;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-sec-div {
+    width: 517px;
+    height: 203px;
+    border: 1px solid black;
+    margin: auto 0;
+    /* margin-bottom: 10px; */
+}
+
+.m-s-i {
+    width: 403px;
+    height: 328px;
+    border-radius: 20px;
+}
+
+.main-sec-h1,
+.main-sec-p,
+.main-sec-btn {
+    margin-bottom: 10px;
+}
+
+.main-sec-btn {
+    background-color: #4E47FF;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+.main-sec-p {
+    color: #252432;
+    opacity: 50%;
+    font-size: 24px;
+
+
+}
+
+.user {
+    width: 1140px;
+    height: 306px;
+    margin: 150px auto;
+    border-radius: 15px;
+    border: 1px solid green;
+    background-color: rgba(253, 187, 196, 0.102);
+}
+
+.user-first-child {
+    width: 856px;
+    height: 206px;
+    margin: 50px auto;
+    border: 1px solid blueviolet;
+
+}
+
+.user-h1 {
+    text-align: center;
+    font-size: 38px;
+}
+
+.user-activity {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.child2-h1 {
+    font-size: 80px;
+    font-weight: bold;
+    color: #4E47FF;
+
+}
+
+.child2-p {
+    color: #000000;
+    opacity: 50%;
+    margin-left: 10px;
+    font-size: 20px;
+}
